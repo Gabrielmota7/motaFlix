@@ -1,6 +1,9 @@
 import React from "react";
 import './movieRow.css';
 
+
+
+
 export default ({title, items}) => {
     return (
         <div className="movieRow">
@@ -14,6 +17,8 @@ export default ({title, items}) => {
                     ))}                    
                 </div>            
             </div>
+            
         </div>
+        
     );
 }
